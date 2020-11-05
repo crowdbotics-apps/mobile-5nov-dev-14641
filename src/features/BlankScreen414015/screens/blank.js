@@ -39,7 +39,8 @@ export default class Blank extends React.Component {
       />
       <Icon name="fast-backward" />
       <Icon name="fast-forward" />
-      <Icon name="bicycle" />
+      <Icon name="fast-forward" />
+      <Icon name="fast-backward" />
     </View>
   )
 }
@@ -60,5 +61,13 @@ const styles = StyleSheet.create({
   Switch_4: {},
   Icon_5: {},
   Icon_6: {},
-  Icon_7: {}
+  Icon_7: {},
+  View_1: {},
+  Button_2: {},
+  TextInput_3: {},
+  Switch_4: {},
+  Icon_5: {},
+  Icon_6: {},
+  Icon_7: {},
+  Icon_9: {}
 })
