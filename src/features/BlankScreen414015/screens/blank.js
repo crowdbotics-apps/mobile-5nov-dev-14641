@@ -30,15 +30,16 @@ export default class Blank extends React.Component {
       <Button title="Press me!" onPress={() => alert("Pressed!")} />
       <TextInput
         placeholder="Number Input Placeholder"
-        keyboardType="numeric"
         value={this.state.TextInput_3}
         onChangeText={nextValue => this.setState({ TextInput_3: nextValue })}
       />
       <Switch
-        trackColor={{ false: "#C0CCDA", true: "#409EFF" }}
         value={this.state.Switch_4}
         onValueChange={nextChecked => this.setState({ Switch_4: nextChecked })}
       />
+      <Icon name="fast-backward" />
+      <Icon name="fast-forward" />
+      <Icon name="bicycle" />
     </View>
   )
 }
@@ -48,8 +49,16 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Button_2: {},
   TextInput_3: {},
-  Switch_4: {}
+  Switch_4: {},
+  View_1: {},
+  Button_2: {},
+  TextInput_3: {},
+  Switch_4: {},
+  Icon_5: {},
+  Icon_6: {},
+  Icon_7: {}
 })
